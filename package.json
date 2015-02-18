@@ -8,9 +8,11 @@
     "underscore": "^1.7.0"
   },
   "devDependencies": {
-    "browserify": "^8.1.3"
+    "browserify": "^8.1.3",
+    "jshint": "^2.6.0"
   },
   "scripts": {
-    "build": "browserify app/app.js -o app/app.min.js"
+    "build": "jshint ./app && browserify app/app.js -o app/app.min.js",
+    "analyze": "jshint ./app"
   }
 }

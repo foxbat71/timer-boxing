@@ -3,3 +3,6 @@
 
 # ignore bundled app *.js file
 app.min.js
+
+# ignore log files
+*.log

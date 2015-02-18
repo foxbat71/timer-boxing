@@ -4,4 +4,4 @@ var Backbone = require('backbone');
 
 var Timer = Backbone.Model.extend({});
 
-module.exports = Backbone;
+module.exports = Timer;
