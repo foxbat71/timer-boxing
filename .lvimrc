@@ -1,0 +1,3 @@
+" In order to source this file, install https://github.com/embear/vim-localvimrc plugin
+nnoremap <silent> <leader>l :!npm run build<cr><esc>
+nnoremap <silent> <leader>a :!npm run analyze<cr><esc>

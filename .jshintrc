@@ -6,7 +6,7 @@
   "evil": true,
   "white": true,
   "undef": true,
-  "unused": true,
   "indent": 2,
-  "browserify": true          // enable support for Browserify.js
+  "browserify": true,          // enable support for Browserify.js
+  "devel": true
 }

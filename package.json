@@ -12,7 +12,7 @@
     "jshint": "^2.6.0"
   },
   "scripts": {
-    "build": "jshint ./app && browserify app/app.js -o app/app.min.js",
+    "build": "jshint ./app && browserify app/app.js -d -o app/app.min.js",
     "analyze": "jshint ./app"
   }
 }
