@@ -7,6 +7,13 @@
   <body>
     <div id="app-container">
     </div>
+    <script type="text/template" id="timer-template">
+      <div id="remaining-time"><%= secondsRemaining() %></div>
+      <div id="passed-time"><%= secondsPassed() %></div>
+      <div id="start-timer">Start</div>
+    </script>
+    <script type="text/template" id="layout-template">
+    </script>
     <script type="text/javascript" src="app.min.js"></script>
   </body>
 </html>
